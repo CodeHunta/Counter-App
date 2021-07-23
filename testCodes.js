@@ -28,3 +28,28 @@ let myName = "Stanley Umez"
 let greeting = "Hi my name is "
 let myGreeting = greeting + myName
 console.log(myGreeting)
+
+//Practice 5: Calculator
+
+let num1 = prompt("What is the first number?")
+let num2 = prompt("What is the second number?")
+
+function add() {
+    addNumbers = num1 + num2
+    console.log(addNumbers)
+}
+
+function minus() {
+    addNumbers = num1 - num2
+    console.log(addNumbers)
+}
+
+function divide() {
+    addNumbers = num1 / num2
+    console.log(addNumbers)
+}
+
+function mulitiply() {
+    addNumbers = num1 * num2
+    console.log(addNumbers)
+}
